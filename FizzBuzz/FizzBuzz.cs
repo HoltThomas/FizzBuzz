@@ -8,9 +8,6 @@ namespace FizzBuzz
 {
     class FizzBuzz : Element
     {
-        public int id;
-        public uint value;
-
         public string stringValue = "Fizz Buzz";
 
         public FizzBuzz(int newID, uint newValue)

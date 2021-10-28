@@ -8,6 +8,9 @@ namespace FizzBuzz
 {
     class Element
     {
+        public int id;
+        public uint value;
+
         public void AddToList(List<string> strList, string stringValue)
         {
             strList.Add(stringValue);
